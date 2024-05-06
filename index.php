@@ -5,3 +5,11 @@ use Xrquan\Weather\History;
 
 $tag1 = new Day('25-04-2024', 'schöner Tag');
 $tag2 = new Day('26-04-2024', 'bewölkter Tag');
+
+
+$history = new History();
+
+
+$history->addTag($tag1);
+
+

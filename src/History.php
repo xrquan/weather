@@ -5,7 +5,15 @@ namespace Xrquan\Weather;
 class History
 {
 
-    public array $eintragungen = [];
+    private $tage = [];
+
+    public function addTag($tag) {
+        $this->tage[] = $tag;
+    }
+
+    public function getTage() {
+        return $this->tage;
+    }
 
 
 }
