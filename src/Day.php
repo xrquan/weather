@@ -2,6 +2,9 @@
 
 namespace Xrquan\Weather;
 
+
+
+
 class Day
 {
     private string $tag = '';
